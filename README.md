@@ -1,5 +1,7 @@
 # foo
 
+IF youre able to read: this all happpens in the foo folder
+
 A modular Rust project organized as a Cargo workspace with separated crates for
 core domain logic, a CLI interface, and shared types.
 
