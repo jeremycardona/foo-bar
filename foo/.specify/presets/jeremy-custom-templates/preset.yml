@@ -1,0 +1,38 @@
+schema_version: "1.0"
+
+preset:
+  id: "jeremy-custom-templates"
+  name: "Jeremy's Custom Spec Kit Templates"
+  version: "1.0.0"
+  author: "jeremycardona"
+  description: "Customized markdown templates for specs, plans, tasks, checklists, and constitutions."
+
+requires:
+  speckit_version: ">=0.1.0"
+
+provides:
+  templates:
+    - type: "template"
+      name: "checklist-template"
+      file: "checklist-template.md"
+      strategy: "replace"
+
+    - type: "template"
+      name: "constitution-template"
+      file: "constitution-template.md"
+      strategy: "replace"
+
+    - type: "template"
+      name: "plan-template"
+      file: "plan-template.md"
+      strategy: "replace"
+
+    - type: "template"
+      name: "spec-template"
+      file: "spec-template.md"
+      strategy: "replace"
+
+    - type: "template"
+      name: "tasks-template"
+      file: "tasks-template.md"
+      strategy: "replace"

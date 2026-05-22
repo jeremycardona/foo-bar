@@ -1,0 +1,17 @@
+[workspace]
+resolver = "2"
+members = [
+    "core",
+    "shared",
+    "cli",
+    "tests",
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+
+[workspace.dependencies]
+serde = { version = "1", features = ["derive"] }
+thiserror = "2"

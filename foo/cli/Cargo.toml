@@ -1,0 +1,10 @@
+[package]
+name = "foo-cli"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+foo-core = { path = "../core" }
+foo-shared = { path = "../shared" }
+thiserror = { workspace = true }

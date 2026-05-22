@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "presets": {
+    "jeremy-custom-templates": {
+      "version": "1.0.0",
+      "source": "local",
+      "manifest_hash": "sha256:4280026b4edef11d7218dd0555933b7d27ca6d788bd9dc13e8fc3c147317f0bb",
+      "enabled": true,
+      "priority": 10,
+      "registered_commands": {},
+      "registered_skills": [],
+      "installed_at": "2026-05-22T14:14:00.856167+00:00"
+    }
+  }
+}
